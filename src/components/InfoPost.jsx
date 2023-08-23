@@ -15,8 +15,8 @@ export default function InfoPost({
         <div>{date}</div>
       </div>
       <h2 className="text-2xl mt-4">{title}</h2>
-      <p className="text-white/60 mt-6 w-10/12">{shortDesc}</p>
-      <div className="flex items-center mt-6">
+      <p className="text-white/60 mt-5 w-10/12">{shortDesc}</p>
+      <div className="flex items-center mt-5">
         <img
           src={authorAvatar}
           alt="author1"

@@ -3,8 +3,8 @@ import InfoPost from "./InfoPost";
 export default function FeaturedPost() {
   return (
     <article>
-      <div className="flex items-center">
-        <div className="pr-4 w-8/12">
+      <div className="flex -mx-4 items-center">
+        <div className="px-4 w-8/12">
           <img src="/gambar1.png" alt="gambar" className="rounded-xl w-full" />
         </div>
         <div className="w-4/12 px-4">
